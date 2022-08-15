@@ -9,5 +9,5 @@ const gMap = new Map('map', {
     lng: 0
   }
 });
-gMap.addUserMarker(new User());
-gMap.addCompanyMarker(new Company());
+gMap.addMarker(new User());
+gMap.addMarker(new Company());
